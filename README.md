@@ -13,7 +13,7 @@ version: '3'
 
 services:
   httpd:
-    container_name: httpd
+    container_name: lighttpd
     image: nicoroud/docker-lighttpd
     restart: always
     networks:
